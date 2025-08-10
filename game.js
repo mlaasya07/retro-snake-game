@@ -1,9 +1,7 @@
 document.getElementById('startButton').addEventListener('click', () => {
   gameManager.startGame();
 });
-document.getElementById('pauseButton').addEventListener('click', () => {
-  gameManager.togglePause();
-});
+
 class GameManager {
   constructor() {
     this.canvas = document.getElementById('gameCanvas');
